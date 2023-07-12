@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taj Hotel Website</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+<script>
+	$(document).ready(function(){
+  	$('[data-toggle="popover"]').popover();      
+	});
+</script>
+
+<style type="text/css">
+		#plan:hover{
+			text-decoration: underline;
+			color:#ff471a; 
+		}
+
+		#zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}
+		
+		#plan1{
+		height:210px;
+		}
+		
+		#zoom{
+		width:450px;
+		height:250;
+		
+		
+		}
+		.abc span{
+		color:#2c2c54;
+		font-size:25;
+		text-align:center
+		}
+		
+		
+		
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg  navbar-dark sticky-top">
+		<div class="container-fluid">
+			<div class="logo ">
+				<img src="Image/logo1.png" class="img-fluid" style="height:60px; width:100px;"><br/>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav SD mx-auto" >
+			  <li class="nav-item mx-2">
+				<a class="nav-link "  href="index.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white;">HOME</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link active" href="guestrooms.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white; border-bottom: 3px solid #77b300" >ROOMS</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="cuisine.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">CUISINE</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="eventspace.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">EVENT</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="jivaspa.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">JIVA SPA</a>
+			  </li>
+			  <li class="nav-item ">
+				<a class="nav-link" href="contact1.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">CONTACT</a>
+			  </li>
+			</ul>
+			<a class="navbar-brand" style="border: 2px solid black;  color: white; font-size: 20px; width:100px; text-align: center; border-radius:30px; font-family:'Times New Roman" href="login.html">Login</a>
+			<a class="navbar-brand" style="border: 2px solid black;  color: white; font-size: 20px; width:100px; text-align: center; border-radius:30px; font-family:'Times New Roman" href="register.html">Register</a>
+		  </div>
+		</div>
+	  </nav>
+	  <br>
+		
+
+<section>
+
+		<div class="container">
+			<div class="cont">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<img src="Image/Guest.png" height="320" width="720" class="img-thumbnail img-fluid mx-auto d-block"><br>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<p style="font-size: 23px; line-height: 28px; text-align: center;"><b></b> <b><i>“Whether You Come In To Visit. Or Just To Rest. When You Enter Our Home May You Be BLESSED.”</i></b> <br>– The Thompsons <br>
+						</p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<p style="font-size: 20px; line-height: 28px; text-align: justify;">
+						<b>-</b> Whether you’re keen on a stunning view or some peace, we offer accommodation in Mumbai that caters to your needs. Be it a room or a suite, each fuses contemporary sophistication and old-world Indian opulence with subtle charm.<br><br>
+
+						<b>-</b> As per government guidelines, only fully vaccinated individuals are permitted entry into the premises. You are requested to present your vaccination certificate on arrival to facilitate this. The hotel reserves the right to deny entry to non-vaccinated individuals for the safety and security of all our guests and associates. We thank you for your understanding.
+						</p><br>
+					</div>	
+				</div>	 
+			</div>			
+		</div><br>
+
+		<div class="container">
+			<div class="cont2" id="Guest RoomsSection1">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 style="text-align: center;font-family:Baskerville Old Face;color:#EC0A33   ">- PICK A LUXURY ROOMS -</h1>
+					</div>
+				</div><br>
+				
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="features" style="border:3px solid  #A92CCD; border-radius: 20px; padding: 15px 5px 5px 5px;">
+							<a href="features.html"><h3 id="plan" style="text-align: center; color:#006266;font-family:Bernard MT Condensed">Luxury Room View.</h3></a>
+							<a href="features.html"><img id="zoom" src="Image/Luxury View.png" class="img-thumbnail img-fluid mx-auto d-block" height="150" width="450" style="border-radius: 20px;"></a>
+							
+							<p style="text-align: justify; font-size: 18px; padding: 8px 10px 5px 10px;"><i>Elegant and warm colour palettes combined with textured furnishings gives the rooms a sophisticated style of personalized city residence. This Room has a window for natural light overlooking a wall and offers no view. The room has a high-definition TV with DVD player and a well-stocked minibar. A work desk, multi-line telephone with voicemail facilities and electronic safe are few amenities provided, to ensure your business is smooth.<a style="font-size: 19px;" href="features.html"><b><u>Read More >></u></b></a></i></p>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="features1" style="border:3px solid  #A92CCD; border-radius: 20px; padding: 15px 5px 5px 5px;">
+							<a href="features.html"><h3 id="plan" style="text-align: center; color:#006266; font-family:Bernard MT Condensed">Grand Luxury Suite.</h3></a>
+							<a href="features.html"><img id="zoom" src="Image/Grand Luxury Suite.png" class="img-thumbnail img-fluid mx-auto d-block" height="350" width="450" style="border-radius: 20px;"></a>
+							
+							<p style="text-align: justify; font-size: 18px; padding: 8px 10px 5px 10px;"><i>Elegant and warm colour palettes combined with textured furnishings gives the rooms a sophisticated style of personalized city residence. This Room has a window for natural light overlooking a wall and offers no view. The room has a high-definition TV with DVD player and a well-stocked minibar. A work desk, multi-line telephone with voicemail facilities and electronic safe are few amenities provided, to ensure your business is smooth. A work desk, multi-line telephone with voicemail<a style="font-size: 19px;" href="features.html"><b><u>Read More >></u></b></a></i></p>
+						</div>
+				</div>
+			</div>
+		</div><br><br><br>
+		
+		<div class="container">
+			<div>
+			<div id="Guest RoomsSection2">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 style="text-align: center;font-family:Baskerville Old Face;color:#EC0A33  ">- RATES OF THE ROOMS -</h1>
+					</div>
+				</div><br>
+				
+				<div class="row">	
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #A92CCD; border-radius: 20px; " class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #A92CCD; border-radius: 20px; padding-top: 10px; padding-bottom: 10px; font-family:Cooper Black;color:#6D214F ">Standard Rates</h3>
+							<ol style="padding-left: 40px; font-size: 19px;" class="abc">
+								<li>Luxury Room Facade<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 9,450</b></span></li>
+								<li>Luxury Room City <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 9,900 </b></span></li>
+								<li>Luxury Room Pool<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 10,350 </b></span></li>
+								<li>Luxury Room Runway<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 11,700 </b></span></li>
+								<li>Taj Club Tranquility Room<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 12,600 </b></span></li>
+								<li>Taj Club Room City<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 12,960 </b></span></li> 
+								<li>Taj Club Room Runway<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 14,040 </b></span></li>
+								<li>Junior Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 16,920 </b></span></li>
+								<li>Luxury Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 34,628 </b></span></li>
+								<li>Presidential Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 3,60,000 </b></span></li>
+							</ol>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #A92CCD; border-radius: 20px;" class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #A92CCD; border-radius: 20px; padding-top: 10px; padding-bottom: 10px;font-family:Cooper Black;color:#6D214F  ">Member Rates </h3>
+							<ol style="padding-left: 40px; font-size: 19px;" class="abc">
+								<li>Luxury Room Facade<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 10,500</b></span></li>
+								<li>Luxury Room City <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 11,000</b></span></li>
+								<li>Luxury Room Pool <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 11,500</b></span></li>
+								<li>Luxury Room Runway<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 13,000</b></span></li>
+								<li>Taj Club Tranquility Room<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 14,000</b></span></li>
+								<li>Taj Club Room City <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 14,400</b></span></li> 
+								<li>Taj Club Room Runway <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 15,600</b></span></li>
+								<li>Junior Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 18,800 </b></span></li>
+								<li>Luxury Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 38,475</b></span> </li>
+								<li>Presidential Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 4,00,000</b></span></li>
+							</ol>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #A92CCD; border-radius: 20px;" class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #A92CCD; border-radius: 20px; padding-top: 10px; padding-bottom: 10px;font-family:Cooper Black;color:#6D214F  ">Packages</h3>
+							<ol style="padding-left: 40px; font-size: 19px;" class="abc">
+								<li>Luxury Room Facade <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 12,500 </b></span></li>
+								<li>Luxury Room City<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 13,000 </b></span></li>
+								<li>Luxury Room Pool <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 13,500 </b></span></li>
+								<li>Luxury Room Runway <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 15,500 </b></span></li>
+								<li>Taj Club Tranquility Room<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 19,500 </b></span></li>
+								<li>Taj Club Room City <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 20,000 </b></span></li> 
+								<li>Taj Club Room Runway <br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 21,500 </b></span></li>
+								<li>Junior Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 25,500 </b></span></li>
+								<li>Luxury Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 42,500 </b></span></li>
+								<li>Presidential Suite<br><span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 5,02,000 </b></span></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>	
+	</section><br>
+
+<footer class="bg-secondary container-fluid h-100">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>©2023 The Indian Hotels Company Limited. All Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

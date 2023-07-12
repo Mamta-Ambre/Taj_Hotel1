@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Taj Hotal Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="Master.css">
+	<script type="text/javascript" src="Contact.js"></script>
+	
+
+	<style type="text/css">
+		label {
+			font-weight: bolder;
+			font-size: 18px;
+		}
+
+		span {
+			font-style: italic;
+			color: red;
+			font-size: 16px;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+
+
+	<nav class="navbar navbar-expand-lg  navbar-dark sticky-top">
+		<div class="container-fluid">
+			<div class="logo ">
+				<img src="Image/logo1.png" class="img-fluid" style="height:60px; width:100px;"><br/>
+				
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav SD mx-auto" >
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="index.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white;">HOME</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="guestrooms.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white;" >ROOMS</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="cuisine.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">CUISINE</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="eventspace.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">EVENT</a>
+			  </li>
+			  <li class="nav-item mx-2">
+				<a class="nav-link" href="jivaspa.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white">JIVA SPA</a>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link" href="contact1.html" style="font-size:18px; font-family:Georgia, 'Times New Roman', Times, serif; color: white; border-bottom: 3px solid #77b300">CONTACT</a>
+			  </li>
+			</ul>
+			<a class="navbar-brand" style="border: 2px solid black;  color: white; font-size: 20px; width:100px; text-align: center; border-radius:30px; font-family:'Times New Roman" href="login.html">Login</a>
+			<a class="navbar-brand" style="border: 2px solid black;  color: white; font-size: 20px; width:100px; text-align: center; border-radius:30px; font-family:'Times New Roman" href="register.html">Register</a>
+		  </div>
+		</div>
+	  </nav>
+<section>
+	  <div class='login container'><br>
+        <h1 class='text-center'>CONTACT US</h1>
+        <hr/>
+        <div class='container d-flex justify-content-center'>
+          <form class='form mt-5 w-75'>
+  
+            <div class="mb-3">
+                  <label for="exampleFormControlInput" class="form-label">NAME :-</label>
+                  <input type="text" class="form-control" id="exampleFromControlInput" placeholder='Enter Your Name'/>
+            </div>
+
+            <div class="mb-3">
+                  <label for="exampleFormControlInput" class="form-label">E-MAIL ADDRESS :-</label>
+                  <input type="email" class="form-control" id="exampleFromControlInput" placeholder='Enter Your E-mail Address'/>
+            </div>
+        
+            <div class="mb-3">
+				<label for="exampleFormControlTextarea1">MESSAGE :-</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" placeholder='Enter Your Message' rows="3"></textarea>
+			  </div>
+  
+              <div class="mb-3 text-center">
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">SUBMIT</button>
+               </div>
+          </form>
+
+		  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLabel">THANK YOU !!</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  Your Details Has Been Successfully Submitted. Thank You !
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-primary" data-dismiss="modal">Continue</button>
+				  <button type="button" class="btn btn-secondary">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		 </div>      
+      </div>
+</section>
+	<footer class="bg-secondary container-fluid h-100" style="margin-top:180px; >
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>©2023 The Indian Hotels Company Limited. All Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
